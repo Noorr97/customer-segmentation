@@ -8,6 +8,9 @@ import matplotlib.pyplot as plt
 # Load data
 df = pd.read_csv("https://raw.githubusercontent.com/teamsmcmjcet/Customer-Segmentation/main/Dataset/Mall_Customers.csv")
 
+import warnings
+warnings.filterwarnings("ignore")
+
 # Introduction paragraph
 st.title("Customer Segmentation Analysis")
 st.write("Customer segmentation is a crucial aspect of marketing strategy, allowing businesses to understand and target different customer groups effectively. In this analysis, we use K-Means clustering to categorize customers based on their annual income and spending score.Data science plays a vital role in solving real-world problems. By leveraging techniques like clustering, businesses can gain valuable insights from their data, enabling informed decision-making and tailored strategies for customer engagement and satisfaction.")
