@@ -5,6 +5,27 @@ from sklearn.cluster import KMeans
 import plotly.express as px
 import matplotlib.pyplot as plt
 
+custom_theme = """
+        [theme]
+        primaryColor="#19454c"
+        backgroundColor="#316371"
+        secondaryBackgroundColor="#131743"
+        textColor="#ffffff"
+        font="serif"
+    """
+
+    # Apply the custom theme
+st.write(f"<style>{custom_theme}</style>", unsafe_allow_html=True)
+# model = pickle.load(open("E:/Brainwave Analysis/project/model.pkl", "rb"))
+
+
+hide_streamlit_style = """
+        <style>
+        #MainMenu, .stNotification, .stSystemWarning {
+            display: none;
+        }
+        </style>
+    """
 # Load data
 df = pd.read_csv("https://raw.githubusercontent.com/teamsmcmjcet/Customer-Segmentation/main/Dataset/Mall_Customers.csv")
 
