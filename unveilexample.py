@@ -34,9 +34,9 @@ warnings.filterwarnings("ignore")
 
 # Introduction paragraph
 st.title("Customer Segmentation")
-st.header("MANAGER:)
+st.header("MANAGER":)
 st.write("Recently, my company sales have been decreaing rapidly and i don't seem to find the reason behind all this. I'm confused.")
-st.subheader("DATA SCIENTIST:)
+st.subheader("DATA SCIENTIST":)
 st.write("To solve this particular issue we can use Data Science Techniques to analyze the customer data and identify patterns that might be affecting the sales. Let's start by exloring the customer segmentation.")
 st.write("Customer segmentation is a crucial aspect of marketing strategy, allowing businesses to understand and target different customer groups effectively. In this analysis, we use K-Means clustering to categorize customers based on their annual income and spending score.Data science plays a vital role in solving real-world problems. By leveraging techniques like clustering, businesses can gain valuable insights from their data, enabling informed decision-making and tailored strategies for customer engagement and satisfaction.")
 
